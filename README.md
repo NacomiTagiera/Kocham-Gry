@@ -1,4 +1,4 @@
-Kocham gry to strona o grach komputerowych i też trochę o mnie. To jak dotąd mój największy projekt. Tworząc tę stronę, wykorzystałem: HTML, CSS, JS i Bootstrap. Witryna jest oczywiście responsywna. Szczególnie jestem zadowolony z podstrony Gwint, na której umieściłem grę w pamięć.
+Kocham gry to strona o grach komputerowych i też trochę o mnie. To jak dotąd mój największy projekt. Tworząc tę stronę, wykorzystałem: HTML, CSS, JS i Bootstrap. Witryna jest oczywiście responsywna. Szczególnie jestem zadowolony z podstrony Gwint, na której umieściłem grę w pamięć. W przyszłości chciałbym w tym projekcie wykorzystać React'a, wtedy kod będzie bardziej czytelny i będzie go dużo mniej.
 
 Strona główna: https://nacomitagiera.github.io/Kocham-Gry/Strona%20g%C5%82%C3%B3wna/index.html
 
