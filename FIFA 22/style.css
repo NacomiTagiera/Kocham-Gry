@@ -1,39 +1,35 @@
-@import url('../common-style.css');
+@import url("../common-style.css");
 
-.progress-container 
-{  
+.progress-container {
   display: flex;
   position: relative;
   justify-content: space-between;
 }
 
-.progress-bar-back 
-{
+.progress-bar-back {
   position: absolute;
   height: 4px;
   background-color: lightgray;
-  border: 2px solid lightgray;  
-  margin: 0;
-  top: 50%;
-  transform: translateY(-50%); 
-}
-
-.progress-bar-front 
-{
-  position: absolute;
-  height: 4px;
-  width: 0%;
-  background-color: green;  
-  border: 2px solid green;  
+  border: 2px solid lightgray;
   margin: 0;
   top: 50%;
   transform: translateY(-50%);
-  transition: width .4s linear;  
-  opacity: 1;  
 }
 
-.step 
-{
+.progress-bar-front {
+  position: absolute;
+  height: 4px;
+  width: 0%;
+  background-color: green;
+  border: 2px solid green;
+  margin: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  transition: width 0.4s linear;
+  opacity: 1;
+}
+
+.step {
   width: 30px;
   height: 30px;
   background-color: white;
@@ -46,52 +42,44 @@
   z-index: 1;
 }
 
-.step.checked 
-{
+.step.checked {
   color: green;
   border-color: green;
-  transition: all .4s linear;
-  transition-delay: .3s;
+  transition: all 0.4s linear;
+  transition-delay: 0.3s;
 }
 
-.step.checked small 
-{
+.step.checked small {
   position: absolute;
   bottom: 30px;
 }
 
-.button 
-{
+.button {
   background-color: #c34f4f;
   border: none;
   color: white;
   padding: 10px 20px;
   margin: 10px;
   cursor: pointer;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, .3);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
 
-.button:hover 
-{
+.button:hover {
   background-color: #cf6969;
 }
 
-.button:active 
-{
-  transform: scale(.95);
+.button:active {
+  transform: scale(0.95);
 }
 
-.button:disabled 
-{
+.button:disabled {
   background-color: lightgray;
 }
 
-#poprzedni
-{
+#poprzedni {
   border-radius: 15px 5px 5px 15px;
 }
 
-#nastepny
-{
+#nastepny {
   border-radius: 5px 15px 15px 5px;
 }

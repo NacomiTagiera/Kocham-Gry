@@ -1,106 +1,102 @@
 @import url("../common-style.css");
 
-.gwint
-{
-    font-family: 'Lobster', sans-serif;    
-    font-size: 25px;
-    color: #209781;
+.gwint {
+  font-family: "Lobster", sans-serif;
+  font-size: 25px;
+  color: #209781;
 }
 
-.gwint h2
-{
-    font-size: 50px;
+.gwint h2 {
+  font-size: 50px;
 }
 
-.board
-{
-    width: 100%;    
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
+.board {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
 }
 
-.karta
-{
-    width: 125px;
-    height: 125px;
-    display: inline-block;  
-    margin: .1rem;      
+.karta {
+  width: 125px;
+  height: 125px;
+  display: inline-block;
+  margin: 0.1rem;
 }
 
-.ciri { background-image: url("img/ciri.png"); }
-
-.geralt { background-image: url("img/geralt.png"); }
-
-.iorweth { background-image: url("img/iorweth.png"); }
-
-.jaskier { background-image: url("img/jaskier.png"); }
-
-.triss { background-image: url("img/triss.png"); }
-
-.yen { background-image: url("img/yen.png"); }
-
-.hidden 
-{
-    background-image: url("img/karta.png");
-    filter: brightness(80%);    
+.ciri {
+  background-image: url("img/ciri.png");
 }
 
-.hidden:hover
-{    
-    cursor: pointer;
-    filter: brightness(100%);
+.geralt {
+  background-image: url("img/geralt.png");
 }
 
-.off 
-{
-    background-image: url("");
+.iorweth {
+  background-image: url("img/iorweth.png");
 }
 
-.off:hover
-{
-    cursor: default;
+.jaskier {
+  background-image: url("img/jaskier.png");
 }
 
-.score
-{    
-    letter-spacing: 2px;
+.triss {
+  background-image: url("img/triss.png");
 }
 
-h4
-{
-    font-weight: 600;  
-    text-align: center;  
+.yen {
+  background-image: url("img/yen.png");
 }
 
-.image
-{
-    width: 60%;
+.hidden {
+  background-image: url("img/karta.png");
+  filter: brightness(80%);
+}
+
+.hidden:hover {
+  cursor: pointer;
+  filter: brightness(100%);
+}
+
+.off {
+  background-image: url("");
+}
+
+.off:hover {
+  cursor: default;
+}
+
+.score {
+  letter-spacing: 2px;
+}
+
+h4 {
+  font-weight: 600;
+  text-align: center;
+}
+
+.image {
+  width: 60%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  transition: transform 0.5s ease-in-out;
+}
+
+.image:hover {
+  transform: scale(0.95);
+}
+
+@media (max-width: 991px) {
+  .image {
+    width: 80%;
     height: auto;
-    display: block;
-    margin: 0 auto;
-    transition: transform .5s ease-in-out;
+  }
 }
 
-.image:hover
-{
-    transform: scale(.95);
-}
-
-@media (max-width: 991px)                    
-{      
-    .image
-    {
-        width: 80%;        
-        height: auto;        
-    }
-}
-
-@media (max-width: 575px)
-{
-    .image
-    {
-        width: 90%;        
-        height: auto;         
-    }
+@media (max-width: 575px) {
+  .image {
+    width: 90%;
+    height: auto;
+  }
 }
